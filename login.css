@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+body{
+    background-color: #0D3D8C;
+    height: 100vh;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-box{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    max-width: 400px;
+    margin: 50px;
+   
+
+}
+
+h2{
+    margin: 20px 0;
+    color: black;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form .password{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+}
+
+input{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input:focus{
+    outline: none;
+    border-color: #0D3D8C;
+}
+
+.forget-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.password{
+    display: flex;
+    justify-content: flex-start;
+    align-items: normal;
+    
+}
+
+.password a {
+    color: #0D3D8C;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.login-btn{
+    padding: 10px;
+    background-color: #0D3D8C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    background-color: #0b3471;
+}
+
+.divider{
+    margin: 20px 0;
+    color: #999;
+}
+
+.facebook-btn{
+    padding: 10px;
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.facebook-btn:hover{
+    background-color: #365899;
+}
+
+.register{
+    margin-top: 20px;
+}
+
+.register a{
+    color: #0D3D8C;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 50px;
+    height: 20px;
+}
+
